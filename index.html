@@ -46,8 +46,13 @@
   </div>
 
   <form id="checklistForm">
-
-    <input name="empresa" class="form-control mb-2" placeholder="Empresa" required>
+    <select name="empresa" class="form-select mb-2" required>
+      <option value="">Cliente</option>
+      <option>Novo Cliente</option>
+      <option>Ampliação</option>
+      <option>As Built</option>
+      <option>Prospecção</option>
+    </select>
 
     <!-- Campo de data com calendário -->
     <input type="date" name="data" class="form-control mb-2" required>
@@ -69,7 +74,7 @@
     <input name="cidade" class="form-control mb-2" placeholder="Cidade" required>
     <input name="bairro" class="form-control mb-2" placeholder="Bairro" required>
     <input name="cep" class="form-control mb-2" placeholder="CEP" required>
-    <input name="cpq" class="form-control mb-2" placeholder="CPQ" required>
+    <input name="cpq" class="form-control mb-2" placeholder="CPQ / FTI" required>
     <input name="tubulacao" class="form-control mb-2" placeholder="Tubulação" required>
 
     <select name="civil" class="form-select mb-2" required>
@@ -125,4 +130,5 @@
 
 </body>
 </html>
+
 
